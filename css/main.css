@@ -4,3 +4,18 @@ html{
 
 *, *::before, *::after {
 	box-sizing: inherit;}
+
+.inset-left{
+	float: left;
+	padding-right: 15px;
+	padding-bottom: 15px;}
+
+.inset-right{
+	float: right;
+	padding-right: 15px;
+	padding-bottom: 15px;}
+
+.inset-right-2{
+	float: right;
+	padding-right: 15px;
+	padding-bottom: 15px;}
