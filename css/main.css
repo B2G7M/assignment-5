@@ -60,22 +60,31 @@ div{
 	font-size: 1.25em;}
 
 nav{
+	clear: left;
 	text-align: center;}
 
 nav a{
-	padding: 0.40em 0.75em;
-	border: 1px solid #a33f3a;
 	color: white;
-	text-decoration: none;
-	display: block;}
+	text-decoration: none;}
 
 nav li{
 	float: left;
 	width: 33.3%;
+	border: 1px solid #a33f3a;
 	list-style-type: none;}
 
+a:hover{
+	color:#cc3865;}
 
 img{
 	border: 0.125em solid #cccccc;
 	width: 40%}
 
+footer{
+	background-color: #cd5b34;
+	padding: 0.75em;
+	text-align: center;}
+
+.grain {
+	width: 25%;
+}
