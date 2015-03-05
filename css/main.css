@@ -19,7 +19,12 @@ h1{
 	font-weight: bolder;}
 
 h2{
-	background-color: #d98156}
+	background-color: #d98156;
+	padding: 1.75rem;
+	text-align: center;
+	font-weight: bolder;
+	color: white;
+	clear: both;}
 
 ol{
 	display: inline-block;
@@ -33,25 +38,44 @@ li{
 .inset-left{
 	float: left;
 	clear: left;
-	margin: 10px;}
+	margin: 10px;
+	width: 40%;}
 
 .inset-right{
 	float: right;
 	clear: left;
-	margin: 10px}
+	margin: 10px;
+	width: 40%;}
 
 .inset-right-2{
 	float: right;
 	clear: right;
 	margin-right: 10px;
 	margin-bottom: 10px;
-	margin-left: 10px;}
+	margin-left: 10px;
+	width: 40%;}
 
 div{
 	padding-left: 1em;
 	font-size: 1.25em;}
 
+nav{
+	text-align: center;}
+
+nav a{
+	padding: 0.40em 0.75em;
+	border: 1px solid #a33f3a;
+	color: white;
+	text-decoration: none;
+	display: block;}
+
+nav li{
+	float: left;
+	width: 33.3%;
+	list-style-type: none;}
+
+
 img{
 	border: 0.125em solid #cccccc;
-	width: 33%}
+	width: 40%}
 
